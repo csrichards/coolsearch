@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
     "name": "Cool Search",
-    "version": "1.0",
+    "version": "0.1",
 
-    "description": "Stops dropdown that automatically appears in Reddit's search field",
+    "description": "Allows search options to remain selectable when the old.reddit.com search field is not selected",
     
     "icons": { "128": "coolsearch.png" },
     "permissions": [
