@@ -8,12 +8,11 @@
     "icons": { "128": "coolsearch.png" },
     "permissions": [
         "storage",
-        "tabs",
-        "webNavigation"
+        "tabs"
     ],
     "content_scripts": [
         {
-            "matches": ["https://*/*", "http://*/*", "http://www.reddit.com/*"],
+            "matches": ["https://old.reddit.com/*"],
             "js": ["content.js"]
         }
     ],
